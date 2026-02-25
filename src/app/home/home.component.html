@@ -1,0 +1,50 @@
+<!-- ===== POPULAR PRODUCTS CAROUSEL ===== -->
+<ngb-carousel *ngIf="popularProducts" class="custom-carousel">
+  <ng-template *ngFor="let item of popularProducts" ngbSlide>
+    <div class="carousel-image-wrapper">
+      <a routerLink="/details/{{item.id}}">
+        <img class="product-header-image" [src]="item.image" [alt]="item.name">
+      </a>
+    </div>
+
+    <div class="carousel-caption custom-caption">
+      <h3>{{item.name}}</h3>
+      <p>{{item.description}}</p>
+      <a routerLink="/details/{{item.id}}" class="btn btn-light btn-sm">
+        View Product
+      </a>
+    </div>
+  </ng-template>
+</ngb-carousel>
+
+<!-- ===== TRENDY PRODUCTS ===== -->
+<div class="product-list-wrapper container mt-5">
+  <h2 class="section-title text-center mb-4">Trendy Products</h2>
+
+  <div class="row">
+    <div class="col-md-3 col-sm-6 mb-4" *ngFor="let item of trendyProducts">
+      <div class="product-card">
+
+        <div class="image-wrapper">
+          <img [src]="item.image" [alt]="item.name">
+        </div>
+
+        <div class="product-details text-center">
+          <h6 class="name-head">{{item.name}}</h6>
+          <p class="price">£ {{item.price}}</p>
+          <p class="color">Color: {{item.color}}</p>
+        </div>
+
+        <div class="product-footer">
+          <a routerLink="/details/{{item.id}}" class="btn btn-outline-primary btn-sm">
+            Details
+          </a>
+          <button class="btn btn-primary btn-sm">
+            Add to Cart
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

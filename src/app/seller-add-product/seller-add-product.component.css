@@ -1,0 +1,36 @@
+.seller-wrapper {
+  margin-top: 60px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.form-card {
+  width: 500px;
+  background: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.08);
+}
+
+.form-card h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.form-control {
+  margin-bottom: 18px;
+  height: 45px;
+  border-radius: 8px;
+}
+
+textarea.form-control {
+  height: 100px;
+  resize: none;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: none;
+}

@@ -1,0 +1,117 @@
+/* Wrapper */
+
+.product-details-wrapper {
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+
+/* Image Card */
+
+.image-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.product-img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: contain;
+}
+
+/* Details Card */
+
+.details-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Typography */
+
+.product-title {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.product-price {
+  color: #007bff;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* Color */
+
+.color-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.product-color {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+}
+
+/* Description */
+
+.category {
+  font-size: 14px;
+  color: #555;
+}
+
+.description {
+  margin: 20px 0;
+  color: #666;
+}
+
+/* Quantity */
+
+.quantity-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.quantity-group button {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ddd;
+  background: #f8f9fa;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.quantity-group button:hover {
+  background: #007bff;
+  color: #fff;
+}
+
+.quantity-group input {
+  width: 60px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid #ddd;
+  margin: 0 10px;
+  border-radius: 6px;
+}
+
+/* Buttons */
+
+.action-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.action-buttons .btn {
+  border-radius: 30px;
+  padding: 10px 25px;
+}

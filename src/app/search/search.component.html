@@ -1,0 +1,47 @@
+<div class="container search-wrapper">
+
+  <h2 class="section-title text-center">Search Results</h2>
+
+  <div class="search-card"
+       *ngFor="let item of searchResult">
+
+    <div class="row align-items-center">
+
+      <!-- Image -->
+      <div class="col-md-3 text-center">
+        <a routerLink="/details/{{item.id}}">
+          <img [src]="item.image" [alt]="item.name">
+        </a>
+      </div>
+
+      <!-- Details -->
+      <div class="col-md-9 details">
+
+        <h5>
+          <a routerLink="/details/{{item.id}}">
+            {{item.name}}
+          </a>
+        </h5>
+
+        <p class="price">₹ {{item.price}}</p>
+
+        <div class="meta">
+          <span>Color: {{item.color}}</span>
+          <span>Category: {{item.category}}</span>
+        </div>
+
+        <p class="description">
+          {{item.description}}
+        </p>
+
+        <a routerLink="/details/{{item.id}}"
+           class="btn btn-outline-primary btn-sm rounded-pill">
+          View Details
+        </a>
+
+      </div>
+
+    </div>
+  </div>
+
+</div>

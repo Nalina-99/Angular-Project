@@ -1,0 +1,54 @@
+.checkout-wrapper {
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+
+.section-title {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+/* Cards */
+
+.checkout-card,
+.summary-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Form */
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  height: 45px;
+  border-radius: 8px;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: none;
+}
+
+/* Summary */
+
+.summary-card h4 {
+  margin-bottom: 20px;
+}
+
+.summary-line {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+.payment-method {
+  font-weight: 600;
+  color: #28a745;
+}

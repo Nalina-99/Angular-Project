@@ -1,0 +1,80 @@
+<div class="container checkout-wrapper">
+  <h2 class="section-title">Checkout</h2>
+
+  <div class="row">
+
+    <!-- LEFT: SHIPPING FORM -->
+    <div class="col-md-7 mb-4">
+
+      <div class="checkout-card">
+        <h4 class="mb-4">Shipping Address</h4>
+
+        <p class="message-p text-success">{{orderMsg}}</p>
+
+        <form #orderData="ngForm"
+              (ngSubmit)="orderNow(orderData.value)">
+
+          <div class="form-group">
+            <input
+              type="email"
+              class="form-control"
+              name="email"
+              placeholder="Enter Email"
+              ngModel
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control"
+              name="address"
+              placeholder="Enter Shipping Address"
+              ngModel
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control"
+              name="contact"
+              placeholder="Enter Contact Number"
+              ngModel
+              required
+            />
+          </div>
+
+          <button class="btn btn-primary btn-lg btn-block rounded-pill">
+            Place Order
+          </button>
+
+        </form>
+      </div>
+
+    </div>
+
+    <!-- RIGHT: ORDER SUMMARY -->
+    <div class="col-md-5">
+
+      <div class="summary-card">
+        <h4>Order Summary</h4>
+
+        <div class="summary-line">
+          <span>Total Amount</span>
+          <span>₹ {{totalPrice}}</span>
+        </div>
+
+        <div class="summary-line">
+          <span>Payment Method</span>
+          <span class="payment-method">Cash on Delivery</span>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</div>

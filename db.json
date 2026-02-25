@@ -1,0 +1,165 @@
+{
+  "seller": [
+    {
+      "name": "Nal",
+      "email": "xyz@gmail.com",
+      "password": "abc@123",
+      "id": 9
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Samsung Galaxy S23",
+      "price": 799,
+      "category": "mobile",
+      "color": "black",
+      "description": "Latest Samsung flagship smartphone with AMOLED display.",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o"
+    },
+    {
+      "id": 2,
+      "name": "iPhone 14 Pro",
+      "price": 1099,
+      "category": "mobile",
+      "color": "silver",
+      "description": "Apple iPhone 14 Pro with A16 Bionic chip.",
+      "image": "https://images.unsplash.com/photo-1610792516307-ea5acd9c3b00"
+    },
+    {
+      "id": 3,
+      "name": "MacBook Air M2",
+      "price": 1149,
+      "category": "laptop",
+      "color": "gray",
+      "description": "Lightweight Apple laptop with M2 chip.",
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8"
+    },
+    {
+      "id": 4,
+      "name": "Dell XPS 13",
+      "price": 999,
+      "category": "laptop",
+      "color": "silver",
+      "description": "Ultra thin Dell XPS with InfinityEdge display.",
+      "image": "https://images.unsplash.com/photo-1616348436168-de43ad0db179"
+    },
+    {
+      "id": 5,
+      "name": "Nike Air Max 270",
+      "price": 120,
+      "category": "shoes",
+      "color": "white",
+      "description": "Comfortable running shoes for daily wear.",
+      "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db"
+    },
+    {
+      "id": 6,
+      "name": "Levi's Slim Fit Jeans",
+      "price": 65,
+      "category": "clothing",
+      "color": "blue",
+      "description": "Premium quality denim jeans.",
+      "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246"
+    },
+    {
+      "id": 7,
+      "name": "Noise ColorFit Pro 4",
+      "price": 45,
+      "category": "watch",
+      "color": "black",
+      "description": "Smartwatch with fitness tracking features.",
+      "image": "https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b"
+    },
+    {
+      "id": 8,
+      "name": "Sony WH-1000XM5",
+      "price": 349,
+      "category": "headphones",
+      "color": "black",
+      "description": "Industry-leading noise cancelling headphones.",
+      "image": "https://images.unsplash.com/photo-1585386959984-a41552262a63"
+    },
+    {
+      "id": 9,
+      "name": "Canon EOS 1500D",
+      "price": 499,
+      "category": "camera",
+      "color": "black",
+      "description": "DSLR camera for beginners and professionals.",
+      "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32"
+    },
+    {
+      "id": 10,
+      "name": "Gaming Chair Pro X",
+      "price": 189,
+      "category": "furniture",
+      "color": "red",
+      "description": "Ergonomic gaming chair with lumbar support.",
+      "image": "https://images.unsplash.com/photo-1582582494700-4e0b4c4c0d33"
+    },
+    {
+      "id": 11,
+      "name": "Apple iPad Air",
+      "price": 669,
+      "category": "tablet",
+      "color": "blue",
+      "description": "Powerful tablet for work and entertainment.",
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3"
+    },
+    {
+      "id": 12,
+      "name": "Adidas Sports T-Shirt",
+      "price": 29,
+      "category": "clothing",
+      "color": "green",
+      "description": "Breathable sports t-shirt for workouts.",
+      "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab"
+    },
+    {
+      "id": 13,
+      "name": "Google Pixel 8",
+      "price": 699,
+      "category": "mobile",
+      "color": "obsidian",
+      "description": "Google Pixel 8 with advanced AI camera features.",
+      "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569"
+    },
+    {
+      "id": 14,
+      "name": "OnePlus 12",
+      "price": 649,
+      "category": "mobile",
+      "color": "emerald",
+      "description": "Flagship OnePlus smartphone with fast charging.",
+      "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf"
+    },
+    {
+      "id": 15,
+      "name": "Xiaomi 13 Pro",
+      "price": 599,
+      "category": "mobile",
+      "color": "white",
+      "description": "High performance smartphone with Leica camera.",
+      "image": "https://images.unsplash.com/photo-1616348436168-de43ad0db179"
+    },
+    {
+      "id": 16,
+      "name": "Nothing Phone (2)",
+      "price": 579,
+      "category": "mobile",
+      "color": "gray",
+      "description": "Minimalist transparent design with flagship specs.",
+      "image": "https://images.unsplash.com/photo-1686824808446-7cba1cc403a4"
+    },
+    {
+      "id": 17,
+      "name": "Samsung Galaxy A54",
+      "price": 449,
+      "category": "mobile",
+      "color": "lime",
+      "description": "Mid-range Samsung phone with AMOLED display.",
+      "image": "https://images.unsplash.com/photo-1610792516307-ea5acd9c3b00"
+    }
+  ]
+}

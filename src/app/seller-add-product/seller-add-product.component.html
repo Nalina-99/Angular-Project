@@ -1,0 +1,60 @@
+<div class="container seller-wrapper">
+
+  <div class="form-card">
+    <h2>Add New Product</h2>
+
+    <p class="text-success text-center">{{addProductMessage}}</p>
+
+    <form #addProduct="ngForm"
+          (ngSubmit)="submit(addProduct.value)">
+
+      <input type="text"
+             class="form-control"
+             placeholder="Product Name"
+             name="name"
+             ngModel
+             required />
+
+      <input type="number"
+             class="form-control"
+             placeholder="Product Price"
+             name="price"
+             ngModel
+             required />
+
+      <input type="text"
+             class="form-control"
+             placeholder="Category"
+             name="category"
+             ngModel
+             required />
+
+      <input type="text"
+             class="form-control"
+             placeholder="Color"
+             name="color"
+             ngModel
+             required />
+
+      <textarea class="form-control"
+                placeholder="Description"
+                name="description"
+                ngModel
+                required></textarea>
+
+      <input type="text"
+             class="form-control"
+             placeholder="Image URL"
+             name="image"
+             ngModel
+             required />
+
+      <button class="btn btn-primary btn-block rounded-pill mt-3">
+        Add Product
+      </button>
+
+    </form>
+
+  </div>
+
+</div>

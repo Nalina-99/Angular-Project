@@ -1,0 +1,114 @@
+<div class="auth-wrapper">
+
+  <div class="auth-card">
+
+    <!-- SIGN UP -->
+    <div *ngIf="!showLogin">
+
+      <h2>User Sign Up</h2>
+
+      <form #userSignUp="ngForm"
+            (ngSubmit)="signUp(userSignUp.value)">
+
+        <input
+          type="text"
+          class="form-control"
+          name="name"
+          placeholder="Full Name"
+          ngModel
+          required
+        />
+
+        <input
+          type="email"
+          class="form-control"
+          name="email"
+          placeholder="Email"
+          ngModel
+          required
+        />
+
+        <input
+          type="password"
+          class="form-control"
+          name="password"
+          placeholder="Password"
+          ngModel
+          required
+          minlength="4"
+        />
+
+        <button class="btn btn-primary btn-block rounded-pill mt-3">
+          Sign Up
+        </button>
+
+        <p class="toggle-text">
+          Already have an account?
+          <span (click)="openLogin()">Login</span>
+        </p>
+
+      </form>
+
+    </div>
+
+    <!-- LOGIN -->
+    <div *ngIf="showLogin">
+
+      <h2>User Login</h2>
+
+      <p class="text-danger text-center">{{authError}}</p>
+
+      <form #userLogin="ngForm"
+            (ngSubmit)="login(userLogin.value)">
+
+        <input
+          type="email"
+          class="form-control"
+          name="email"
+          placeholder="Email"
+          ngModel
+          email
+          #email="ngModel"
+          required
+        />
+
+        <small class="error-text"
+               *ngIf="email.invalid && email.touched">
+          Please enter a valid email
+        </small>
+
+        <input
+          type="password"
+          class="form-control"
+          name="password"
+          placeholder="Password"
+          ngModel
+          minlength="2"
+          maxlength="20"
+          #password="ngModel"
+          required
+        />
+
+        <small class="error-text"
+               *ngIf="password.invalid && password.touched">
+          Please enter valid password
+        </small>
+
+        <button
+          [disabled]="userLogin.invalid"
+          class="btn btn-primary btn-block rounded-pill mt-3">
+          Login
+        </button>
+
+        <p class="toggle-text">
+          Don’t have an account?
+          <span (click)="openSignUp()">Sign Up</span>
+        </p>
+
+      </form>
+
+    </div>
+
+  </div>
+
+</div>

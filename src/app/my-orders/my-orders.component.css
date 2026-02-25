@@ -1,0 +1,54 @@
+.my-orders {
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+.section-title {
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+/* Order Card */
+
+.order-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.order-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+/* Image */
+
+.order-img {
+  width: 80px;
+}
+
+/* Middle Section */
+
+.order-middle p {
+  margin: 0 0 5px 0;
+}
+
+.status {
+  font-size: 13px;
+  padding: 4px 10px;
+  background: #ffc107;
+  color: #000;
+  border-radius: 20px;
+}
+
+/* Right */
+
+.order-right .btn {
+  border-radius: 20px;
+}

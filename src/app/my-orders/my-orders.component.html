@@ -1,0 +1,26 @@
+<div class="container my-orders">
+  <h2 class="text-center section-title">My Orders</h2>
+
+  <div class="order-card" *ngFor="let order of orderData">
+
+    <div class="order-left">
+      <img class="order-img"
+        src="https://www.clipartmax.com/png/middle/210-2106541_track-my-order-beach-volleyball.png"
+        alt="order">
+    </div>
+
+    <div class="order-middle">
+      <p><strong>Order ID:</strong> #{{order.id}}</p>
+      <p><strong>Total:</strong> ₹ {{order.totalPrice}}</p>
+      <span class="status">In Progress</span>
+    </div>
+
+    <div class="order-right">
+      <button class="btn btn-outline-danger"
+              (click)="cancelOrder(order.id)">
+        Cancel Order
+      </button>
+    </div>
+
+  </div>
+</div>

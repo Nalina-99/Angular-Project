@@ -1,0 +1,61 @@
+.search-wrapper {
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+
+.section-title {
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+/* Card */
+
+.search-card {
+  background: #fff;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.search-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.search-card img {
+  width: 100%;
+  max-height: 160px;
+  object-fit: contain;
+}
+
+/* Details */
+
+.details h5 a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #333;
+}
+
+.details h5 a:hover {
+  color: #007bff;
+}
+
+.price {
+  font-weight: 700;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.meta span {
+  margin-right: 15px;
+  font-size: 13px;
+  color: #666;
+}
+
+.description {
+  font-size: 14px;
+  color: #555;
+  margin: 10px 0 15px;
+}

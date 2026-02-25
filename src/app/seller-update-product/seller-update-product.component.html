@@ -1,0 +1,60 @@
+<div class="container update-wrapper">
+
+  <div class="form-card">
+
+    <h2>Update Product</h2>
+    <p class="text-success text-center">{{productMessage}}</p>
+
+    <form #addProduct="ngForm"
+          (ngSubmit)="submit(addProduct.value)">
+
+      <input type="text"
+             class="form-control"
+             name="name"
+             placeholder="Product Name"
+             [ngModel]="productData?.name"
+             required />
+
+      <input type="number"
+             class="form-control"
+             name="price"
+             placeholder="Product Price"
+             [ngModel]="productData?.price"
+             required />
+
+      <input type="text"
+             class="form-control"
+             name="category"
+             placeholder="Category"
+             [ngModel]="productData?.category"
+             required />
+
+      <input type="text"
+             class="form-control"
+             name="color"
+             placeholder="Color"
+             [ngModel]="productData?.color"
+             required />
+
+      <textarea class="form-control"
+                name="description"
+                placeholder="Description"
+                [ngModel]="productData?.description"
+                required></textarea>
+
+      <input type="text"
+             class="form-control"
+             name="image"
+             placeholder="Image URL"
+             [ngModel]="productData?.image"
+             required />
+
+      <button class="btn btn-primary btn-block rounded-pill mt-3">
+        Update Product
+      </button>
+
+    </form>
+
+  </div>
+
+</div>
